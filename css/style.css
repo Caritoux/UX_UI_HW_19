@@ -1,0 +1,81 @@
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+.myself {
+  margin-top: 60px;
+}
+.rol {
+  width: 60%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.brief {
+  width: 60%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.work {
+  padding-top: 140px;
+  padding-bottom: 60px;
+  /* background-color: #f3f3f3; */
+}
+
+.about {
+  padding-top: 140px;
+  padding-bottom: 60px;
+}
+.end {
+  background-color: black;
+  color: #f3f3f3;
+  text-align: center;
+  height: 40px;
+  width: 100%;
+}
+.h1 {
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(65%,transparent),color-stop(10%,#fcf113));
+    background-image: linear-gradient(180deg,transparent 65%,#fcf113 0);
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    -webkit-transition: background-size .4s ease;
+    transition: background-size .4s ease;
+    color: #000;
+}
+.title text {
+  background-image: linear-gradient(180deg,transparent 65%,#fcf113 0);
+  background-repeat: no-repeat;
+  text-decoration: none;
+}
+
+.card-img-top {
+  height: 389.12px;
+  width: 389.12px;
+}
+/* animation */
+
+.circle {
+  background: #000;
+  border-radius: 50%;
+  height: auto !important;
+  width: auto !important;
+  transition: all .3s ease-in-out;
+}
+
+.circle:hover {
+  border-radius:0;  
+  cursor: pointer;
+}
+
+.text {
+  color: #fff;
+  opacity: 0;
+  text-align: center;
+  padding-top: 0px;
+  transition: all .3s ease-in-out;
+}
+
+.circle:hover .text {
+  padding-top: 40px;
+  opacity: 1;
+}
